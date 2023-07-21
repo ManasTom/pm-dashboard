@@ -1,0 +1,144 @@
+.body{
+  margin: 0;
+}
+
+.header_container{
+  background: rgba(215, 233, 241, 0.70);
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.header_logoImage_container{
+  height: 90px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  width:50%;
+  float: left ;
+}
+
+.header_logoImage{
+  height: 90px;
+}
+
+.header_logoImage {
+  height: 90px;
+}
+
+.header_logout_button_container{
+  height: 90px;
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  float: right;
+  color: blue;  
+  text-align: right;
+}
+
+.header_logout_button{
+  height: 90px;
+  text-align: center;
+  float: right;
+}
+
+.navbar_container{
+  width: 200px;
+  height: 500px;
+  padding-top: 2%;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 0px 0px 20px 0px;
+  background: rgba(215, 233, 241, 0.70);
+}
+
+.profile_picture_container{
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  padding-left: 5px;
+  text-align: center;
+
+}
+
+.profileName{
+  padding-top: 8px;
+  padding-left: 5px;
+  font-size: medium;
+  text-align: center;
+}
+
+.seperation_bar{
+  width: 150px;
+  height: 3px;
+  padding-left: 5px;
+  background-color: black;
+  text-align: center;
+}
+
+.form_container{
+  padding: 5%;
+  float:none;
+  width: 80%;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+.input_fields{
+  border-radius: 5px;
+}
+
+input[type="text"],
+textarea,
+select,
+button {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color:rgb(0, 130, 205);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.table{
+  width: 100%;
+}
+
+.delete-button{
+  color: red;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edit-button{
+  color: rgb(255, 255, 255);
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-action{
+  display: flex;
+  justify-content: space-between;
+}

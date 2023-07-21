@@ -1,0 +1,65 @@
+<div>
+    <div class="row">
+        <div class="header_container ">
+            <div class="header_logoImage_container " >
+                <img class="header_logoImage col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6" src="\assets\MaverixPro-logo.png" alt="">
+            </div>
+            <div class="header_logout_button_container">
+                <h4 class="header_logout_buton">
+                    <a href="">
+                        Logout
+                    </a>
+                </h4>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="navbar_container d-none d-lg-block">
+            
+                <img src="\assets\profilePic.png" alt="">
+            
+            <h5 class="profileName">PM NAME</h5>
+            <img class="seperation_bar" src="\assets\seperator.png" alt="">
+
+            <h4>
+              <a routerLink="" href="#">
+                  Home
+              </a>
+            </h4>
+            
+
+        </div>
+        <div class="form_container col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+            <form id="task-form">
+                <div class="form-group">
+                  <label for="task-name">Task Name:</label>
+                  <input class="input_fields" type="text" id="task-name" name="task-name" required>
+                </div>
+            
+                <div class="form-group">
+                  <label for="task-description">Task Description:</label>
+                  <textarea class="input_fields" id="task-description" name="task-description" required></textarea>
+                </div>
+            
+                <div class="form-group">
+                  <label for="employee">Assign to Employee:</label>
+                  <select class="input_fields" id="employee" name="employee" required>
+                    <option value="">select the employee</option>
+                  </select>
+                </div>
+            
+                <div class="form-group">
+                  <label for="due-date">Due Date:</label>
+                  <input class="input_fields" type="date" id="due-date" name="due-date" required>
+                </div>
+            
+                <div class="form-group">
+                  <button type="submit">Save</button>
+                </div>
+              </form>
+
+        </div>
+
+    </div>
+</div>

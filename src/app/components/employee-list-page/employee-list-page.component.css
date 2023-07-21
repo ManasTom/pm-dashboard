@@ -1,0 +1,107 @@
+.header_container{
+    background: #d7e9f1b3;
+    height: 100px;
+    flex-shrink: 0;
+    width: 100%;
+}
+.header_logoImage_container{
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width:50%;
+    float: left ;
+    align-items: center;
+  
+
+}
+.header_logoImage{
+    height: 70px;
+}
+
+.header_logout_button_container{
+    height: 90px;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    float: right;  
+    text-align: right;
+}
+
+.header_logout_button{
+    height: 5px;
+    text-align: center;
+    float: right;
+}
+.navbar_container{
+    width: 140px;
+    height: 500px;
+    padding-top: 2%;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 0px 0px 20px 0px;
+    background: rgba(215, 233, 241, 0.70);
+    
+    
+}
+
+.profileName{
+    padding-top: 8px;
+    padding-left: 5px;
+    font-size: medium;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 127px;
+    background-color: #f1f1f1;
+    overflow: auto;
+  }
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color:lightblue;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  .contents{
+    padding: 5%;
+    float:none;
+    width: 80%;
+    text-align: left;
+    
+  }
+.emptable{
+  border-collapse: collapse;
+      width: 100%;
+      border: none;
+
+}
+.emptable th, .emptable td {
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+.fa-user-circle {
+  border-radius: 100%;
+  color:grey;
+}

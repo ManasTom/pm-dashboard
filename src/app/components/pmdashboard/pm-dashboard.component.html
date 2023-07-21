@@ -1,0 +1,74 @@
+<div>
+  <div class="row">
+      <div class="header_container ">
+          <div class="header_logoImage_container " >
+              <img class="header_logoImage col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6" src="\assets\MaverixPro-logo.png" alt="">
+          </div>
+          <div class="header_logout_button_container">
+              <h4 class="header_logout_buton">
+                  <a href="">
+                      Logout
+                  </a>
+              </h4>
+          </div>
+      </div>
+
+  </div>
+  <div class="row">
+      <div class="navbar_container d-none d-lg-block">
+          
+              <img src="\assets\profilePic.png" alt="">
+          
+          <h5 class="profileName">PM NAME</h5>
+          <img class="seperation_bar" src="\assets\seperator.png" alt="">
+
+          <h4>
+              <a href="">
+                  Home
+              </a>
+          </h4>
+          <h4>
+              <a routerLink="employee-list-page">
+                  Employee list
+              </a>
+          </h4>
+
+      </div>
+      <div class="form_container col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+
+              <button routerLink="create-task-page" type="submit">Create New Task</button>
+              <br>
+              <br>
+              <form action="">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th>Si.No</th>
+                              <th>Task Name</th>
+                              <th>Deadline</th>
+                              <th>Employee Name</th>
+                              <th>Progress</th>
+                              <th>Project Name</th>
+                              <th>Action</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>1</td>
+                              <td>Task 1</td>
+                              <td>01/01/2000</td>
+                              <td>John Doe</td>
+                              <td>Done</td>
+                              <td>Project 1</td>
+                              <td class="table-action">
+                                  <button routerLink="edit-task-page" class="edit-button">EDIT</button>
+                                  <button class="delete-button">X</button>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </form>
+      </div>
+
+  </div>
+</div>

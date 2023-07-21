@@ -1,0 +1,56 @@
+<div>
+    <div class="row ">
+        <div class="header_container ">
+            <div class="header_logoImage_container" >
+                <img class="header_logoImage col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6 "src="\assets\MaverixPro-logo.png" alt="">
+            </div>
+            <div class="header_logout_button_container">
+                <a routerLink="">Logout</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="navbar_container  d-none d-lg-block">
+            <i class="fas fa-user-circle  fa-3x"></i>
+            <h5 class="profileName">PM NAME</h5>
+            <ul>
+                <li><a class="active">Employee list</a></li>
+                <li><a routerLink="" href="">Home</a></li>
+            </ul>
+    
+        </div>
+        <div class="contents col-xs-11 col-sm-11 col-md-11 col-lg-11 col-xl-11" >
+            <h5>Project name:</h5>
+            <br>
+            <ng-select [items]="users" bindValue="id" bindLabel="name" [(ngModel)]="selectedUser"></ng-select>
+
+            <br>
+            <button (click)="addUser()">Add </button>
+            <br>
+            <br>
+            <table class="emptable">
+                <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Task Assigned</th>
+                      <th>Task Completed</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let user of userList">
+                      <td>{{ user.name }}</td>
+                      <td>{{ user.taskAssigned }}</td>
+                      <td>{{ user.taskCompleted }}</td>
+                      <td>
+                      <button class=""  (click)="deleteUser(user)"> Delete</button>
+                      </td>
+                    </tr>
+                  </tbody>
+            </table>
+
+        </div>
+        
+    </div>
+    
+</div>
